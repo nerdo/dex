@@ -2,15 +2,22 @@
   "name": "@nerdo/dex",
   "version": "1.0.2",
   "description": "Finds a running docker container with the closest matching name and executes a command.",
-  "main": "index.js",
+  "main": "dist/dex.js",
   "dependencies": {
     "shelljs": "^0.8.4"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "microbundle": "^0.13.0"
   },
-  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "microbundle --target node -f cjs",
+    "prepublishOnly": "npm:build"
+  },
+  "bin": "./dist/dex.js",
+  "files": [
+    "./dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nerdo/dex.git"
