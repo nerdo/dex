@@ -1,6 +1,6 @@
 {
   "name": "@nerdo/dex",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Finds a running docker container with the closest matching name and executes a command.",
   "main": "dist/dex.js",
   "dependencies": {
