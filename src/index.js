@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { dex } from './dex'
 import { getArgs } from './getArgs'
 import { showUsage } from './showUsage'
