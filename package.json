@@ -1,0 +1,27 @@
+{
+  "name": "@nerdo/dex",
+  "version": "1.0.0",
+  "description": "Finds a running docker container with the closest matching name and executes a command.",
+  "main": "index.js",
+  "dependencies": {
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dex": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerdo/dex.git"
+  },
+  "keywords": [
+    "docker"
+  ],
+  "author": "Dannel Albert <cuebix@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nerdo/dex/issues"
+  },
+  "homepage": "https://github.com/nerdo/dex#readme"
+}
