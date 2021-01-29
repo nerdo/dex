@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/nerdo/dex#readme",
   "engines": {
-    "node": ">= 10"
+    "node": ">= 12"
   }
 }
