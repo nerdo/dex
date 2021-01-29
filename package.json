@@ -11,6 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dex": "node index.js"
   },
+  "bin": "./index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nerdo/dex.git"
@@ -23,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/nerdo/dex/issues"
   },
-  "homepage": "https://github.com/nerdo/dex#readme"
+  "homepage": "https://github.com/nerdo/dex#readme",
+  "engines": {
+    "node": ">= 10"
+  }
 }
