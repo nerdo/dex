@@ -12,7 +12,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "microbundle --target node -f cjs",
-    "prepublishOnly": "npm:build"
+    "prepublishOnly": "npm run build"
   },
   "bin": "./dist/dex.js",
   "files": [
