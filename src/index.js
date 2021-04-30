@@ -6,7 +6,7 @@ import { showUsage } from './showUsage'
 
 const args = getArgs()
 if (args.length >= 1) {
-  dex(getArgs())
+  dex(...getArgs())
 } else {
   showUsage('dex')
 }

@@ -5,7 +5,7 @@ export const dex = (...args) => {
   const docker = makeShellFunction('docker')
   const containerNameQuery = args[0]
   const names = docker('ps', '-f', `name='${containerNameQuery}'`, '--format', '{{.Names}}')
-    .split("\n")
+    .split('\n')
     .filter(s => s.length)
   if (!names.length) {
     console.error(`no container found matching the name "${containerNameQuery}"`)
